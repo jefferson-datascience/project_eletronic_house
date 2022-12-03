@@ -17,21 +17,34 @@ O objetivo do product manager é aumentar a taxa de conversão em 2%, ou seja, a
 
 Antes de trocar a página de vendas antiga pela nova, o product manager gostaria de testar a efetividade da nova página em um grupo menor de clientes, a fim de correr menos riscos de queda da conversão, caso a página nova mostre uma conversão pior do que a página atual.
 
-Você foi contratado como um freelancer pela Electronic House para ajudar o time de Designers da nova página, a validar a sua efetividade de uma maneira mais segura, com mais confiança e rigidez na análise.
+Dessa forma, nosso objetivo como Cientista de Dados na Eletronic, é auxiliar o time de Designers da nova página, a validar a sua efetividade de uma maneira mais segura, com mais confiança e rigidez na análise. Além disso, o time de Designers tem as segunites questões de negócio:
+
+**1.** A conversão da nova página é realmente melhor do a conversão da página atual?
+
+**2.** Sendo a página nova melhor que a antiga, qual o potencial de número de vendas que a nova página pode trazer?
+
+**3.** Sendo a página nova melhor que a antiga, qual o faturamento total na venda do teclado bluetooth através da nova página?
+
+## Planejamento de Solução?
+
+**Qual a solução para o problema?** A solução para esse problema é a aplicação de um teste A/B sobre uma amostra dos cliente da empresa. 
+
+**Como vai ser o produto final?** Vai ser um relatório com as questões de negócio respondidas.
+
 
 # 2. Business Assumptions.
 
-# 3. Solution Strategy
+# 3. Estratégia de Resolução
 
-My strategy to solve this challenge was:
+**Etapa 00. Carregamento dos Dados:** Primeiramente, carregamos os dados e analisamos brevemente os dados. 
 
-**Step 01. Data Description:**
+**Etapa 01. Escolha do Teste:** Escolha do Teste que será utilizado para validar a efetivade da nova página.
 
-**Step 02. Feature Engineering:**
+**Etapa 02. Design de Experimento:** Formulação da hipótese nula, hipótese alternativa, definação da métrica, escolha dos parâmetros para determinar o tamanho da amostra, 
 
-**Step 03. Data Filtering:**
+**Etapa 03. Coleta e Preparação dos Dados de Amostra:** Preparação dos dados, coleta dos dados de amostra, remoção da duplicidade das flags, amostragem aleatória dos grupos de tratamento e controle. 
 
-**Step 04. Exploratory Data Analysis:**
+**Etapa 04. Teste de Hipótese:**
 
 **Step 05. Data Preparation:**
 
