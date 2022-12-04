@@ -32,7 +32,17 @@ Dessa forma, nosso objetivo como Cientista de Dados na Eletronic, é auxiliar o 
 **Como vai ser o produto final?** Vai ser um relatório com as questões de negócio respondidas.
 
 
-# 2. Business Assumptions.
+# 2. Suposições de negócio.
+
+**Atributos**
+
+|   Atributos  |                                                     Descrição                                                   | 
+|--------------|-----------------------------------------------------------------------------------------------------------------|
+|  user_id     |                                          Identificador do usuário                                               |
+| timestamp    |                                  Registro do horário em que o usuário acessou a página                          |
+|   group      |       **control:** Visitante está no grupo de controle; **treatment:** Visitante está no grupo de tratamento    |      
+| landing_page | **old_page:** Página antiga foi apresentada ao visitante; **new_page:** página nova foi apresentada ao visitante|
+|  conversion  | **1:** Visitante adquiriu o teclado bluetooth;  **0:** Visitante não adquiriu o teclado.                        | 
 
 # 3. Estratégia de Resolução
 
@@ -40,50 +50,46 @@ Dessa forma, nosso objetivo como Cientista de Dados na Eletronic, é auxiliar o 
 
 **Etapa 01. Escolha do Teste:** Escolha do Teste que será utilizado para validar a efetivade da nova página.
 
-**Etapa 02. Design de Experimento:** Formulação da hipótese nula, hipótese alternativa, definação da métrica, escolha dos parâmetros para determinar o tamanho da amostra, 
+**Etapa 02. Design de Experimento:** Formulação da hipótese nula, hipótese alternativa, definação da métrica, escolha dos parâmetros para determinar o tamanho da amostra.
 
 **Etapa 03. Coleta e Preparação dos Dados de Amostra:** Preparação dos dados, coleta dos dados de amostra, remoção da duplicidade das flags, amostragem aleatória dos grupos de tratamento e controle. 
 
-**Etapa 04. Teste de Hipótese:**
+**Etapa 04. Teste de Hipótese:** Teste para verificar se a página nova possui uma taxa de conversão diferente da taxa de conversão da página atual. 
 
-**Step 05. Data Preparation:**
+# 4. Conclusão do Teste 
 
-**Step 06. Feature Selection:**
+No nosso teste, foi assumido duas hipóteses. São elas:
 
-**Step 07. Machine Learning Modelling:**
+  **Hipótese Nula:** A página antiga e a página nova têm a mesma taxa de conversão, isto é, ambas possuem 13%.
 
-**Step 08. Hyperparameter Fine Tunning:**
+  **Hipótese Alternativa:** A página com o design novo tem uma taxa de conversão diferente de 13%.(Teste Bicaudal.)
+  
+  Realizado o teste de hipótese para um teste bicaudal, nós encontramos um p-valor de 0.0477 com um nível de significância de 0.05. Assim, nós falhamos em rejeitar a hipótese nula. Ou seja, aceitamos a hipótese nula e concluímos que ambdas as página possuem a mesma taxa de conversão.
 
-**Step 09. Convert Model Performance to Business Values:**
+# 5. Respondendo as Questões de Negócio.
 
-**Step 10. Deploy Modelo to Production:**
+**1.** A conversão da nova página é realmente melhor do a conversão da página atual?
 
-# 4. Top 3 Data Insights
+  - A resposta é não. A sugestão a se dar ao time de negócio é que refaçam o design da página novamente com o objetivo de melhorar a taxa de conversão, ou, realizar uma nova reamostragem que tomaria mais tempo para coleta gerando mais custos para a empresa.
+  
+**2.** Qual o potencial de número de vendas que a nova página pode trazer?
 
-**Hypothesis 01:**
+  - Como o nosso teste nos disse que a página atual e a nova possuem a mesma taxa de conversão, então o potencial de vendas se mantém o mesmo da página antiga.
 
-**True/False.**
+**3.** Qual o faturamento total na venda do teclado bluetooth através da nova página?
 
-**Hypothesis 02:**
+- Como o nosso teste nos disse que a página atual e a nova possuem a mesma taxa de conversão, então o faturamento total de vendas da página nova se mantém o mesmo em relação ao teclado bluetooth.
 
-**True/False.**
+# 8. Resultados de Negócio
 
-**Hypothesis 03:**
+   Em termos de negócio, será comunicado a equipe de designers que não houve diferença na taxa de conversão entre as páginas e, para que se tenha uma taxa de conversão que se torne observável, pode ser tomada as seguintes atitudes:
+    
+    **1.** A equipe de designers fazer uma nova página com maior qualidade para que a taxa de conversão seja mais perceptível.
+    
+    **2.** Realizar uma nova amostragem com uma maior quantidade de visitantes para verficar a efetividade da página.
+ 
 
-**True/False.**
-
-# 5. Machine Learning Model Applied
-
-# 6. Machine Learning Modelo Performance
-
-# 7. Business Results
-
-# 8. Conclusions
-
-# 9. Lessons Learned
-
-# 10. Next Steps to Improve
-
-# LICENSE
-
-# All Rights Reserved - Comunidade DS 2022
+# 9. Próximos Passos
+  
+  Uma vez que sabemos que a página não obteve a taxa de conversão esperada e já informado a equipe de negócio as atitudes a serem tomadas, para complementar a tomada de decisão da empresa seria feito um levantamento dos custos de criar uma página nova, de coletar as amostragem e de nossa consultoria para informar qual é a taxa de conversão mínima que a nova página tem que ter em relação a página antiga para que, no mínimo, custeie a construção da nova página.
+  
