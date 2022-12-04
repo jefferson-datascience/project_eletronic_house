@@ -82,9 +82,9 @@ No nosso teste, foi assumido duas hipóteses. São elas:
 
    Em termos de negócio, será comunicado a equipe de designers que não houve diferença na taxa de conversão entre as páginas e, para que se tenha uma taxa de conversão que se torne observável, pode ser tomada as seguintes atitudes:
     
-    **1.** A equipe de designers fazer uma nova página com maior qualidade para que a taxa de conversão seja mais perceptível.
+   **1.** A equipe de designers fazer uma nova página com maior qualidade para que a taxa de conversão seja mais perceptível.
     
-    **2.** Realizar uma nova amostragem com uma maior quantidade de visitantes para verficar a efetividade da página.
+   **2.** Realizar uma nova amostragem com uma maior quantidade de visitantes para verficar a efetividade da página.
  
 
 # 7. Próximos Passos
