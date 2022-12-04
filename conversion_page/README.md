@@ -6,7 +6,7 @@ O objetivo deste projeto é realizar um teste A/B para informar ao time de marke
 
 O contexto de negócio é fictício. Todavia, o planejamento, execução, desenvolvimento e implementação da solução seguem todos os passos de um projeto real.
 
-Os dados do problema de negócio estão disponíveis no kaggle:
+Os dados do problema de negócio estão disponíveis no kaggle: https://www.kaggle.com/datasets/zhangluyuan/ab-testing?resource=download
 
 
 # 1. Problema de Negócio
@@ -33,8 +33,6 @@ Dessa forma, nosso objetivo como Cientista de Dados na Eletronic, é auxiliar o 
 
 
 # 2. Suposições de negócio.
-
-**Atributos**
 
 |   Atributos  |                                                     Descrição                                                   | 
 |--------------|-----------------------------------------------------------------------------------------------------------------|
@@ -80,7 +78,7 @@ No nosso teste, foi assumido duas hipóteses. São elas:
 
 - Como o nosso teste nos disse que a página atual e a nova possuem a mesma taxa de conversão, então o faturamento total de vendas da página nova se mantém o mesmo em relação ao teclado bluetooth.
 
-# 8. Resultados de Negócio
+# 6. Resultados de Negócio
 
    Em termos de negócio, será comunicado a equipe de designers que não houve diferença na taxa de conversão entre as páginas e, para que se tenha uma taxa de conversão que se torne observável, pode ser tomada as seguintes atitudes:
     
@@ -89,7 +87,7 @@ No nosso teste, foi assumido duas hipóteses. São elas:
     **2.** Realizar uma nova amostragem com uma maior quantidade de visitantes para verficar a efetividade da página.
  
 
-# 9. Próximos Passos
+# 7. Próximos Passos
   
   Uma vez que sabemos que a página não obteve a taxa de conversão esperada e já informado a equipe de negócio as atitudes a serem tomadas, para complementar a tomada de decisão da empresa seria feito um levantamento dos custos de criar uma página nova, de coletar as amostragem e de nossa consultoria para informar qual é a taxa de conversão mínima que a nova página tem que ter em relação a página antiga para que, no mínimo, custeie a construção da nova página.
   
