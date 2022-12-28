@@ -109,3 +109,6 @@ Nesse contexto, podemos tomar a seguinte atitude com o Head de Designers.
 # 7. Próximos Passos
 
   Os próximos passos desse projeto é levantar os custos de todo o processo de produção da página até o processo de coleta de amostra para saber o quanto que tem que ser o mínimo de lift dessa nova página para que se pague os custos de todo esse processo e além disso se obtenha o faturamento esperado.
+
+
+**Clique aqui para acessar o código e todo o desenvolvimento do projeto:** https://github.com/jefferson-datascience/project_eletronic_house/blob/main/conversao_formulario_pagamento/notebooks/6.0%20-%20jhc.conversao_formulario_pagamento.ipynb
