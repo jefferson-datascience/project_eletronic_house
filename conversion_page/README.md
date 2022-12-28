@@ -62,32 +62,30 @@ No nosso teste, foi assumido duas hipóteses. São elas:
 
   **Hipótese Alternativa:** A página com o design novo tem uma taxa de conversão diferente de 13%.(Teste Bicaudal.)
   
-  Realizado o teste de hipótese para um teste bicaudal, nós encontramos um p-valor de 0.0477 com um nível de significância de 0.05. Assim, nós falhamos em rejeitar a hipótese nula. Ou seja, aceitamos a hipótese nula e concluímos que ambdas as página possuem a mesma taxa de conversão.
+  Realizado o teste de hipótese para um teste bicaudal, nós encontramos um p-valor de 0.0477 com um nível de significância de 0.05. Assim, rejeitamos a hipótese nula e concluímos que as páginas possuem taxa de conversão diferentes. Melhor ainda, conseguimos concluir que a taxa de conversão da página nova é maior que a antiga e está com uma taxa de conversão em torno de 13.8%, logo, um lift de 0.8% em relação a página antiga.
 
 # 5. Respondendo as Questões de Negócio.
 
 **1.** A conversão da nova página é realmente melhor do a conversão da página atual?
+    
+- Após realizado os testes, concluímos que a página com o novo design é realmente melhor que a página atual. De forma mais detalhada de acordo com os teste, é esperado uma melhora de 0.8% na taxa de conversão da página nova em relação a página antiga, pois a página nova possui uma taxa de conversão maior que atual que é 13% e a taxa de conversão da nova página é menor que 13,9%, segundo os testes estatísticos realizados.
 
-  - A resposta é não. A sugestão a se dar ao time de negócio é que refaçam o design da página novamente com o objetivo de melhorar a taxa de conversão, ou, realizar uma nova reamostragem que tomaria mais tempo para coleta gerando mais custos para a empresa.
-  
 **2.** Qual o potencial de número de vendas que a nova página pode trazer?
 
-  - Como o nosso teste nos disse que a página atual e a nova possuem a mesma taxa de conversão, então o potencial de vendas se mantém o mesmo da página antiga.
+- Segundo os dados da empresa, com a página antiga, nós tivemos uma taxa de conversão de 13%, na média, no último ano com a venda de teclado bluetooth, isto é, a cada 100.000 acessos, podemos dizer que foram vendido 13.000 teclados bluetooth, ou seja, temos um faturamento de R$ 58.800.00
+- Com a nova página atuando, é esperado um lift de 0.8% na taxa de conversão. Logo, para cada 100.000 acessos, podemos dizer que se espera uma venda de 800 teclados bluetooth a mais, ou seja, temos uma estimativa de aumento no faturamento de R$ 3.600.000.
 
 **3.** Qual o faturamento total na venda do teclado bluetooth através da nova página?
-
-- Como o nosso teste nos disse que a página atual e a nova possuem a mesma taxa de conversão, então o faturamento total de vendas da página nova se mantém o mesmo em relação ao teclado bluetooth.
+    
+- Como não temos informações sobre a quantidade média de acessos anualmente, esperasse que a cada 100.000 acessos tenhamos um faturamento total de R$ 62.100.00 com a nova página.
+    
 
 # 6. Resultados de Negócio
 
-   Em termos de negócio, será comunicado a equipe de designers que não houve diferença na taxa de conversão entre as páginas e, para que se tenha uma taxa de conversão que se torne observável, pode ser tomada as seguintes atitudes:
-    
-   **1.** A equipe de designers fazer uma nova página com maior qualidade para que a taxa de conversão seja mais perceptível.
-    
-   **2.** Realizar uma nova amostragem com uma maior quantidade de visitantes para verficar a efetividade da página.
+   Para o negócio, é esperado um aumento de faturamento de R$ 3.600.00
  
 
 # 7. Próximos Passos
   
-  Uma vez que sabemos que a página não obteve a taxa de conversão esperada e já informado a equipe de negócio as atitudes a serem tomadas, para complementar a tomada de decisão da empresa seria feito um levantamento dos custos de criar uma página nova, de coletar as amostragem e de nossa consultoria para informar qual é a taxa de conversão mínima que a nova página tem que ter em relação a página antiga para que, no mínimo, custeie a construção da nova página.
+  Os próximos passos é monitorar a nova página e analisar a taxa de conversão de compra do teclado Bluetooth.
   
