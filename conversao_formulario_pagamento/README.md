@@ -74,7 +74,7 @@ Para os Dados do Site, foi formulada as seguintes hipóteses:
 
 **Hipótese Alternativa:** O preechimento automático e o preenchimento manual possuem média de compras finalizadas diferentes pelo site.
 
-Nos dados do site do Brasil, México e Estados Unidos falhamos em rejeitar a hipótese nula, onde os p-valores são, respectivamente, 0.3479, 0.1715 e 0.3023 com um nível de significância de 0.05. 
+Nos dados do site do Brasil, México e Estados Unidos falhamos em rejeitar a hipótese nula, onde os p-valores são, respectivamente, 0.5904, 0.992 e 0.5490 com um nível de significância de 0.05. 
 
 Para os Dados do App, foi formulada as seguintes hipóteses:
 
@@ -82,7 +82,7 @@ Para os Dados do App, foi formulada as seguintes hipóteses:
 
 **Hipótese Alternativa:** O preechimento automático e o preenchimento manual possuem média de compras finalizadas diferentes pelo app.
 
-Nos dados do site do Brasil, México e Estados Unidos também falhamos em rejeitar a hipótese nula, onde os p-valores são, respectivamente, 0.6611, 0.4279 e 0.5414 com um nível de significância de 0.05. 
+Nos dados do site do Brasil, México e Estados Unidos também falhamos em rejeitar a hipótese nula, onde os p-valores são, respectivamente, 0.2209, 0.284 e  0.3616 com um nível de significância de 0.05. 
 
 
 # 5. Respondendo as Questões de Negócio
