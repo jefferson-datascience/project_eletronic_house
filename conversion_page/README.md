@@ -89,3 +89,5 @@ No nosso teste, foi assumido duas hipóteses. São elas:
   
   Os próximos passos é monitorar a nova página e analisar a taxa de conversão de compra do teclado Bluetooth.
   
+**Clique aqui para acessar o código e o desenvolvimento do projeto:** https://github.com/jefferson-datascience/project_eletronic_house/blob/main/conversion_page/notebooks/eletronic_house_page_conversion.ipynb
+  
